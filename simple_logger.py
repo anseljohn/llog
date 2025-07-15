@@ -16,6 +16,9 @@ def main(message=None):
     }
     return output
 
+def llog(message=None):
+    return main(message)
+
 if __name__ == "__main__":
     result = main()
     print(json.dumps(result))

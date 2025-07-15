@@ -3,7 +3,7 @@ import os
 import sys
 from datetime import datetime, timedelta
 
-LOG_BASE_DIR = os.path.expanduser("~/.wlog/logs")
+LOG_BASE_DIR = os.path.expanduser("~/.llog/logs")
 
 def summarize_logs(log_paths, openai_client):
     """
